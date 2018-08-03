@@ -13,7 +13,7 @@ function scriptsTask () {
     .pipe(gulpBabel())
     .pipe(sourcemaps.write())
     .pipe(gulp.dest('.tmp/js'))
-    .pipe(concat('main.min.js'))
+    .pipe(concat('main.js'))
     // .pipe(uglify({ preserveComments: 'some' }))
     .pipe(size({ title: 'js' }))
     .pipe(sourcemaps.write('.'))
