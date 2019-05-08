@@ -1,16 +1,9 @@
 {
+  "root": true,
+  "extends": "airbnb",
+  "plugins": ["jest"],
   "env": {
-    "browser": true,
-    "node": true,
-    "amd": true
-  },
-
-  "parserOptions": {
-    "ecmaVersion": 6,
-    "sourceType": "module",
-    "ecmaFeatures": {
-        "jsx": true
-    }
+    "jest/globals": true
   },
 
   "rules": {
